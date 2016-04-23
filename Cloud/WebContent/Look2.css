@@ -1,0 +1,122 @@
+@CHARSET "ISO-8859-1";
+
+ a {
+	font-family: 'calibri';
+	font-size: 15px;
+	font-weight: bold;	
+/* 	font-style: italic;
+	margin: 03%;
+	margin-top: 03%;
+	margin-left: 05%; */
+	text-align: center;
+}
+
+html, body {
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+
+table{
+	width:  70%;
+}
+
+ table {	 
+	/* text-align: center; */
+	/* border-style :solid;
+	border-width : thin; */
+	margin-left: 10%;
+	/* margin-top: 03%; */
+}
+
+caption {
+	font-family: calibri;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 03%;
+} 
+
+table.reference {
+	width: 100%; border-collapse: collapse;
+}
+
+table.reference tr:nth-child(2n+1) {
+	background-color: #E0E7D4;
+}
+table.reference tr:nth-child(2n) {
+	background-color: #F0F3EA;
+}
+table.reference tr.fixzebra {
+	background-color: rgb(241, 241, 241);
+}
+table.reference th {
+	padding: 3px; border: 1px solid #cbd7b7; text-align: left;  width:90px;
+	color: rgb(255, 255, 255); vertical-align: top; background-color:#c9d5b4;
+}
+table.reference th a:link {
+	color: rgb(255, 255, 255);
+}
+table.reference th a:visited {
+	color: rgb(255, 255, 255);
+}
+table.reference th a:hover {
+	color: rgb(238, 135, 42);
+}
+table.reference th a:active {
+	color: rgb(238, 135, 42);
+}
+table.reference td {
+	padding: 7px 5px; border: 1px solid #cbd7b7; vertical-align: top;
+}
+table.reference td.example_code {
+	vertical-align: bottom;
+}
+
+#menu {
+	width: 200px;
+	border-style: solid solid none solid;
+	border-color: #94AA74;
+	border-size: 1px;
+	border-width: 1px;
+	margin: 10px;
+}
+	
+#menu li a {
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+}	
+	
+#menu li a:link, #menu li a:visited {
+	color: #5E7830;
+	display: block;
+	background: url(images/menu1.gif);
+	padding: 8px 0 0 10px;
+}
+	
+#menu li a:hover {
+	color: #26370A;
+	background: url(images/menu1.gif) 0 -32px;
+	padding: 8px 0 0 10px;
+}
+	
+#menu li a:active {
+	color: #26370A;
+	background: url(images/menu1.gif) 0 -64px;
+	padding: 8px 0 0 10px;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+ /* margin: 0 0 10px 100px;  */
+ margin-right: 15%;
+ margin-top: 10px; 
+
+}
